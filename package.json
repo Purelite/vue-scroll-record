@@ -1,0 +1,49 @@
+{
+  "name": "vue-scroll-record",
+  "version": "1.0.0",
+  "description": "a vue directive to record page data and scroll position",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --config webpack.config.js --host 0.0.0.0",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purelite/vue-scroll-record.git"
+  },
+  "keywords": [
+    "vue-scroll-record"
+  ],
+  "author": "purelite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purelite/vue-scroll-record/issues"
+  },
+  "homepage": "https://github.com/Purelite/vue-scroll-record#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.4",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-runtime": "^6.0.0",
+    "css-loader": "^0.23.0",
+    "es6-promise": "^4.0.5",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "html-webpack-plugin": "^2.8.1",
+    "node-sass": "4.1.1",
+    "postcss-loader": "^1.2.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue": "^2.0.0",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-loader": "^9.0.0",
+    "vue-router": "^2.0.0",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  }
+}
